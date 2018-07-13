@@ -470,6 +470,7 @@ body div.center {
   border-radius: 15px;
   padding: 15px 20px;
   color:white !important;
+  box-shadow: 2px 2px 45px -17px #d6ae7b;
 }  
 
 .add-repo-label {
