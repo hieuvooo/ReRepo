@@ -462,14 +462,11 @@ body div.center {
   background:linear-gradient(90deg,#d6ae7b, #eacda3) !important;
   width:80px;
   margin:auto;
-  padding-top:7px;
-  padding-bottom:7px;
   font-size:14px;
   font-weight:600;
   letter-spacing:0.5px;	
   border-radius: 15px;
   padding: 15px 20px;
-  color:white !important;
   box-shadow: 2px 2px 45px -17px #d6ae7b;
 }  
 
@@ -552,4 +549,42 @@ body div.center {
 	background: linear-gradient(90deg, #30c381, #089e46);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
+}
+
+.author-section {
+	min-height: 100%;
+	overflow-y: hidden;
+	position: relative;
+}
+.author-section .author-photo {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 14px;
+	float: left;
+	display: inline-block;
+}
+.author-section .author-description {
+	position: absolute;
+	top: 50%;
+	display: inline-block;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.author-section .author-name {
+	display: block;
+	font-size: 21px;
+	font-weight: bold !important;
+	color: #666666;
+	-webkit-letter-spacing: 1px;
+	-moz-letter-spacing: 1px;
+	-ms-letter-spacing: 1px;
+	letter-spacing: 1px;
+}
+.author-section .author-email {
+	display: block;
+	color: #b9b9b9;
+	font-size: 13px;
 }
