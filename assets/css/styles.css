@@ -306,6 +306,10 @@ ol, ul, li, a, tr, td, table {
 	color: #4a4a4a;
 }
 
+table {
+  width: 100%;
+}
+
 tr {
   border-bottom: 0.5px solid #eacda3;
 }
