@@ -1,3 +1,5 @@
+@import url("../webfonts/SanFranciscoText_Light/stylesheet.css");
+@import url("../webfonts/SanFranciscoText_Semibold/stylesheet.css");
 
 html, body, div, object, iframe, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, fieldset, form, legend, caption, tfoot, thead, th, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -79,97 +81,6 @@ hr {
 input, select {
 	vertical-align: middle;
 }
-@font-face {
-	font-family: 'SF Pro Text';
-	font-style: normal;
-	font-weight: 500;
-	src: local('â˜ºï¸Ž'), url("../fonts/sf-pro-text_medium.woff2") format("woff2");
-}
-@font-face {
-	font-family: 'SF Pro Display';
-	font-style: normal;
-	font-weight: 600;
-	src: local('â˜ºï¸Ž'), url("../fonts/sf-pro-display_semibold.woff2") format("woff2");
-}
-@font-face {
-	font-family: 'SF Pro Display';
-	font-style: normal;
-	font-weight: 500;
-	src: local('â˜ºï¸Ž'), url("../fonts/sf-pro-display_medium.woff2") format("woff2");
-}
-@font-face {
-	font-family: 'SF Pro Display';
-	font-style: normal;
-	font-weight: 700;
-	src: local('â˜ºï¸Ž'), url("../fonts/sf-pro-display_bold.woff2") format("woff2")
-}
-@font-face {
-	font-family: 'SF Pro Display';
-	font-style: normal;
-	font-weight: 400;
-	src: local('â˜ºï¸Ž'), url("../fonts/sf-pro-display_regular.woff2") format("woff2");
-}
-@font-face {
-	font-family: 'SF Pro Text';
-	font-style: normal;
-	font-weight: 800;
-	src: local('â˜ºï¸Ž'), url("../fonts/sf-pro-text_heavy.html") format("woff2");
-	/* (C) 2015 Apple Inc. All rights reserved.*/
-}
-@font-face {
-	font-family: 'SF Pro Display';
-	font-style: normal;
-	font-weight: 900;
-	src: local('☺︎'), url("../fonts/sf-pro-display_black.woff2") format("woff2");
-}
-@font-face {
-	font-family: 'SF Pro Text';
-	font-style: normal;
-	font-weight: 800;
-	src: local('☺︎'), url("../fonts/sf-pro-text_heavy.html") format("woff2");
-}
-@font-face {
-	font-family: 'SF Pro Display';
-	font-style: normal;
-	font-weight: 800;
-	src: local('â˜ºï¸Ž'), url("../fonts/sf-pro-display_heavy.woff2") format("woff2");
-}
-@font-face {
-	font-family: 'SF Pro Text';
-	font-style: normal;
-	font-weight: 600;
-	src: local('â˜ºï¸Ž'), url("../fonts/sf-pro-text_semibold.woff2") format("woff2");
-}
-@font-face {
-	font-family: 'SF Pro Text';
-	font-style: normal;
-	font-weight: 400;
-	src: local('☺︎'), url("../fonts/sf-pro-text_regular.woff2") format("woff2");
-}
-.ios9-lightblue {
-	color: #54C7FC;
-}
-.ios9-blue {
-	color: #0076FF;
-}
-.ios9-darkpink {
-	color: #FF2851;
-}
-.ios9-red {
-	color: #FF3824;
-}
-.ios9-orange {
-	color: #FF9600;
-}
-.ios9-yellow {
-	color: #FFCD00;
-}
-.ios9-lightgreen {
-	color: #44DB5E;
-}
-.ios9-darkgray {
-	color: #8E8E93;
-}
 #unused-body {
 	margin-top: 0px !important;
 	padding-top: 9px !important;
@@ -182,11 +93,11 @@ body {
 	-webkit-touch-callout: none;
 	-webkit-user-select: text;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-	font-family: ".SFNSText-Medium", -apple-system, "Helvetica Neue", "Lucida Grande", sans-serif;
+	font-family: SanFranciscoText Semibold;
 	background-color: #f4f4f4;
 	min-font-size: 13px;
 	text-align: center;
-	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-family: SanFranciscoText Semibold;
 	font-weight: 500;
 	font-size: 15px;
 	width: 100%;
@@ -220,7 +131,7 @@ body panel-header {
 	padding: 8px 16px 0px 20px;
 	text-align: left;
 	font-size: 24px;
-	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-family: SanFranciscoText Semibold;
 	margin-bottom: 13px;
 	padding-left: 14px;
 	color: #111;
@@ -229,7 +140,7 @@ body panel-header label {
 	font-weight: 800 !important;
 }
 body table tbody tr td{
-	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-family: SanFranciscoText Semibold;
 	font-weight: 700;
 	font-size: 15px;
 	float: left;
@@ -252,7 +163,7 @@ body table>tbody>tr>td:nth-child(2) {
 	font-weight: 500;
 	font-size: 13px;
 	text-align: right;
-	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-family: SanFranciscoText Light;
 	color: #111;
 	padding-top: 1px;
 	padding-bottom: 1px;
@@ -279,11 +190,11 @@ body>ul {
 	font-weight: 500;
 	font-size: 15px;
 	margin: 0px;
-	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-family: SanFranciscoText Semibold;
 }
 .change-content {
 	font-size: 14.5px;
-	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-family: SanFranciscoText Light;
 }
 .changes-dash {
 	padding-right: 10px;
@@ -292,10 +203,10 @@ body>ul {
 	display: none;
 }
 body {
-	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-family: SanFranciscoText Light;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-family: SanFranciscoText Semibold;
 }
 ol, ul, li, a, tr, td, table, p {
 	margin: 0;
