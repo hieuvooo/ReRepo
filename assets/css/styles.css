@@ -1,3 +1,4 @@
+
 html, body, div, object, iframe, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, fieldset, form, legend, caption, tfoot, thead, th, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -296,7 +297,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
-ol, ul, li, a, tr, td, table {
+ol, ul, li, a, tr, td, table, p {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -469,6 +470,15 @@ a {
 	border-radius: 6px;
 	overflow: hidden;
 }
+.ascreenshot-img {
+	margin: 0;
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: auto;
+	border-radius: 6px;
+	overflow: hidden;
+}
 .fading-sep {
 	margin-top: 10px;
 	height: 1px;
@@ -609,7 +619,6 @@ and (max-device-width : 480px) {
 .screenshot-item {
 	margin: 0;
 	padding: 0;
-	display: inline-block;
 	vertical-align: bottom;
 	font-size: 13px;
 	margin-right: 6.25px;
@@ -619,6 +628,24 @@ and (max-device-width : 480px) {
 	margin-left: 0px;
 }
 .screenshot-item:last-child {
+	margin-right: 0px;
+}
+
+.ascreenshot-item {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: bottom;
+	font-size: 13px;
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+.ascreenshot-item:first-child {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.ascreenshot-item:last-child {
 	margin-right: 0px;
 }
 
