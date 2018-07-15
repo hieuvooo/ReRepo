@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6, p, span, label {
 	font-size: 100%;
 	vertical-align: baseline;
 }
+
 body {
 	line-height: 1;
 }
@@ -142,7 +143,7 @@ body panel-header label {
 body table tbody tr td{
 	font-family: SanFranciscoText Semibold;
 	font-weight: 700;
-	font-size: 15px;
+	font-size: 16px;
 	float: left;
 	margin: 11px 2px;
 	line-height: 1.1;
@@ -161,7 +162,7 @@ body table>tbody>tr>td:nth-child(2) {
 	color: #777;
 	float: right;
 	font-weight: 500;
-	font-size: 13px;
+	font-size: 16px;
 	text-align: right;
 	font-family: SanFranciscoText Light;
 	color: #111;
@@ -208,12 +209,24 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: SanFranciscoText Semibold;
 }
-ol, ul, li, a, tr, td, table, p {
+h5, h6 {
+	font-family: SanFranciscoText Light;
+}
+ol, ul, li, tr, td, table, p {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	outline: 0;
-	font-size: 100%;
+	font-size: 110%;
+	vertical-align: baseline;
+	color: #4a4a4a;
+}
+a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 120%;
 	vertical-align: baseline;
 	color: #4a4a4a;
 }
@@ -239,7 +252,7 @@ h2 {
 	line-height: 1.5;
 }
 h3 {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 800;
 	color: #4a4a4a;
 	line-height: 1.4;
@@ -252,7 +265,7 @@ h4 {
 	line-height: 1.25;
 }
 h5 {
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 700;
 	color: #4a4a4a;
 	line-height: 1.1
@@ -270,7 +283,7 @@ strong {
 p {
 	line-height: 1.25;
 	margin-bottom: 12px;
-	font-size: 13px;
+	font-size: 17px;
 }
 ul, ol {
 	padding: 8px 18px;
@@ -342,6 +355,7 @@ a {
 	padding: 15px 20px;
 	box-shadow: 2px 2px 45px -17px #d6ae7b;
 }
+
 .add-repo-label {
 	color: white !important;
 }
@@ -447,12 +461,13 @@ a {
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
+	padding-left: 0px; margin-left: 0px;
 }
 .author-section .author-name {
 	display: block;
 	font-size: 21px;
 	font-weight: bold !important;
-	color: #666666;
+	color: #4a4a4a;
 	-webkit-letter-spacing: 1px;
 	-moz-letter-spacing: 1px;
 	-ms-letter-spacing: 1px;
@@ -460,8 +475,8 @@ a {
 }
 .author-section .author-email {
 	display: block;
-	color: #b9b9b9;
-	font-size: 13px;
+	color: #4a4a4a;
+	font-size: 16px;
 }
 .panel {
   display: block;
@@ -470,6 +485,23 @@ a {
   margin-top:9px;
   margin-bottom:28px;
   width: 100%;
+}
+.back-panel {
+  display: block;
+  margin: 0;
+  border:0;
+  margin-top:9px;
+  margin-bottom:28px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .back-panel {
+    visibility: hidden;
+	margin-top: 0px;
+    width: 0px;
+    height: 0px;
+    margin-bottom: 0px;
+  }
 }
 
 .panel-body {
